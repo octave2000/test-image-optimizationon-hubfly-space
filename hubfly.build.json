@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "project": {
+    "id": "prj_def1e988-c401-47e4-8d6b-52a322096581",
+    "name": "test",
+    "region": "27baae1d-49e0-4fe5-8701-8b2092f45ca2"
+  },
+  "container": {
+    "name": "image-lab"
+  },
+  "build": {
+    "mode": "dockerfile",
+    "dockerfilePath": "Dockerfile",
+    "workingDir": ".",
+    "contextDir": "."
+  },
+  "deploy": {
+    "tier": "shared",
+    "resources": {
+      "cpu": 0.3,
+      "ram": 256,
+      "storage": 1
+    },
+    "runtime": {
+      "autoSleep": true,
+      "autoScale": false,
+      "is24x7": false
+    },
+    "process": {}
+  },
+  "remove": {},
+  "metadata": {}
+}

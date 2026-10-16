@@ -1,0 +1,32 @@
+[
+  {
+    "file": "background-3.webp",
+    "width": 750,
+    "height": 601,
+    "bytes": 24092
+  },
+  {
+    "file": "remyshop.webp",
+    "width": 1024,
+    "height": 768,
+    "bytes": 71330
+  },
+  {
+    "file": "rideshare.webp",
+    "width": 1504,
+    "height": 1128,
+    "bytes": 86844
+  },
+  {
+    "file": "images.jpeg",
+    "width": 424,
+    "height": 722,
+    "bytes": 31702
+  },
+  {
+    "file": "large-page.png",
+    "width": 1920,
+    "height": 10193,
+    "bytes": 7616910
+  }
+]
